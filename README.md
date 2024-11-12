@@ -7,9 +7,9 @@ In this repository we create a file called app.py which is a program in paython 
 #### Step 1: Create a Dockerfile
 1. In the same folder as the project, create a file called Dockerfile (without extension).
 2. Add the following content to the Dockerfile:
-FROM python:3.8-slim
+'''FROM python:3.8-slim
 WORKDIR /app
-COPY app.py .
+COPY app.py .'''
 CMD ["python", "app.py"]
 #### Step 2: Build the Docker Image
 1. Open the terminal in Visual Studio Code or in the command line.
