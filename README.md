@@ -1,5 +1,4 @@
 # PRACTICE TASK - CONTAINERS AND SERVERLESS
-## CONTAINER
 # PART 1: CREATE AT LEAST 5 DOCKERS PROJECTS – 5 PROGRAMMING LANGUAGES
 In this repository we create a file called app.py which is a program in paython language using the Visual Studio Code source code editor
 # PART 2: ONCE THE FILE IS CREATED, CREATE A DOCKER IMAGE
@@ -53,9 +52,4 @@ docker tag hello-world-python <username>/hello-world-python
 5. Push the image to Docker Hub:
    
 docker push <username>/hello-world-python
-
-# SERVERLESS
-PART 1: CREATE AT LEAST 5 PROJECTS
-We use the same project as above which was a file called app.py which is a program written in paython programming language
-PART 2: Deploy the above project on any platform like: Heroku, Digital Ocean, Railway, Vercel, Laravel Cloud.
 
